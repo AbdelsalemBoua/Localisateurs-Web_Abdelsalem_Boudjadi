@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.1 on win32)" generated="20230303 19:09:54.951" rpa="false" schemaversion="3">
+<suite id="s1" name="Test1" source="d:\Spécialité en qualité de logiciel\-SESSION 3-\420-L13-BB LANGAGES DE SCRIPTS ET CHAÎNE D'INTÉGRATION\Localisateur-Web\LocalisateurTest\test1.robot">
+<test id="s1-t1" name="TestPratique01" line="8">
+<kw name="Ouvrir le Browser">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230303 19:09:56.262" level="INFO">Opening browser 'chrome' to base url 'https://abdelsalemboua.github.io/Localisateurs-Web_Abdelsalem_Boudjadi/'.</msg>
+<status status="PASS" starttime="20230303 19:09:56.254" endtime="20230303 19:10:00.128"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230303 19:10:00.129" endtime="20230303 19:10:00.257"/>
+</kw>
+<status status="PASS" starttime="20230303 19:09:56.251" endtime="20230303 19:10:00.260"/>
+</kw>
+<kw name="Fermer le Browser">
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230303 19:10:03.269" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230303 19:10:00.266" endtime="20230303 19:10:03.270"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230303 19:10:03.271" endtime="20230303 19:10:05.557"/>
+</kw>
+<status status="PASS" starttime="20230303 19:10:00.263" endtime="20230303 19:10:05.558"/>
+</kw>
+<status status="PASS" starttime="20230303 19:09:56.248" endtime="20230303 19:10:05.559"/>
+</test>
+<status status="PASS" starttime="20230303 19:09:54.969" endtime="20230303 19:10:05.562"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test1">Test1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
